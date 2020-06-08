@@ -1,9 +1,4 @@
-package observer;
-
-import observer.entity.CarroPolicia;
-import observer.entity.CarroRoubado;
-
-import java.util.Observer;
+package observer.example.two;
 
 public class Run {
     public static void main(String[] args) {

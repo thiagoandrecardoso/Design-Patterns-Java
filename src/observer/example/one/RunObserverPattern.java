@@ -1,4 +1,4 @@
-package observer.example;
+package observer.example.one;
 
 public class RunObserverPattern {
 

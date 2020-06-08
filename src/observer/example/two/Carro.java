@@ -1,4 +1,4 @@
-package observer.interfaces;
+package observer.example.two;
 
 public interface Carro {
     void frente();

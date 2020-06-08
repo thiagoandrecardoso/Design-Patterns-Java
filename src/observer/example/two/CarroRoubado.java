@@ -1,6 +1,4 @@
-package observer.entity;
-
-import observer.interfaces.Carro;
+package observer.example.two;
 
 import java.util.Observable;
 
