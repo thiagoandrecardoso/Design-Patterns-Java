@@ -1,5 +1,5 @@
-package strategy.ducks.interfaces;
+package ducks.interfaces;
 
 public interface QuackBehavior {
-    public void quack();
+    void quack();
 }

@@ -1,4 +1,4 @@
-package strategy.ducks.models;
+package ducks.models;
 
 import strategy.war.abst.Warrior;
 import strategy.war.models.BowAndArrowBehavior;

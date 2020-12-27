@@ -1,6 +1,6 @@
-package strategy.ducks.models;
+package ducks.models;
 
-import strategy.ducks.abst.Duck;
+import ducks.abst.Duck;
 
 public class MallardDuck extends Duck {
 

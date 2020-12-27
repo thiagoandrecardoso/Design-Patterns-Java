@@ -1,9 +1,9 @@
-package strategy.ducks.run;
+package ducks.run;
 
-import strategy.ducks.abst.Duck;
-import strategy.ducks.models.FlyRocketPowered;
-import strategy.ducks.models.MallardDuck;
-import strategy.ducks.models.ModelDuck;
+import ducks.abst.Duck;
+import ducks.models.FlyRocketPowered;
+import ducks.models.MallardDuck;
+import ducks.models.ModelDuck;
 
 public class MiniDuckSImulator {
     public static void main(String[] args) {

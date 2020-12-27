@@ -1,6 +1,6 @@
-package strategy.ducks.models;
+package ducks.models;
 
-import strategy.ducks.interfaces.QuackBehavior;
+import ducks.interfaces.QuackBehavior;
 
 public class MuteQuack implements QuackBehavior {
     @Override
