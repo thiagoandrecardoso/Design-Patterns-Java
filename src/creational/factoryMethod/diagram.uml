@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="360.4166666666667" y="252.0">creational.factoryMethod.WindowsDialog</node>
+    <node x="366.0" y="126.0">creational.factoryMethod.WindowsButton</node>
+    <node x="161.0" y="126.0">creational.factoryMethod.Dialog</node>
+    <node x="0.0" y="126.0">creational.factoryMethod.HtmlButton</node>
+    <node x="141.25" y="356.0">creational.factoryMethod.Demo</node>
+    <node x="183.5" y="0.0">creational.factoryMethod.Button</node>
+    <node x="48.58333333333326" y="252.0">creational.factoryMethod.HtmlDialog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.factoryMethod.WindowsDialog" target="creational.factoryMethod.WindowsButton">
+      <point x="0.0" y="-27.0" />
+      <point x="452.9166666666667" y="227.0" />
+      <point x="441.0" y="227.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.WindowsDialog" target="creational.factoryMethod.Dialog">
+      <point x="-61.66666666666666" y="-27.0" />
+      <point x="391.25" y="227.0" />
+      <point x="315.16666666666663" y="227.0" />
+      <point x="61.66666666666663" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.Demo" target="creational.factoryMethod.Dialog">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.HtmlButton" target="creational.factoryMethod.Button">
+      <point x="0.0" y="-38.0" />
+      <point x="70.0" y="96.0" />
+      <point x="197.5" y="96.0" />
+      <point x="-56.0" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.WindowsButton" target="creational.factoryMethod.Button">
+      <point x="0.0" y="-38.0" />
+      <point x="441.0" y="106.0" />
+      <point x="281.5" y="106.0" />
+      <point x="28.0" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.Demo" target="creational.factoryMethod.WindowsDialog">
+      <point x="75.0" y="-60.5" />
+      <point x="328.75" y="331.0" />
+      <point x="452.9166666666667" y="331.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="creational.factoryMethod.HtmlDialog" target="creational.factoryMethod.Dialog">
+      <point x="61.666666666666686" y="-27.0" />
+      <point x="202.74999999999994" y="227.0" />
+      <point x="191.83333333333334" y="227.0" />
+      <point x="-61.66666666666666" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.HtmlDialog" target="creational.factoryMethod.Button">
+      <point x="5.6843418860808015E-14" y="-27.0" />
+      <point x="141.08333333333331" y="227.0" />
+      <point x="150.5" y="227.0" />
+      <point x="150.5" y="106.0" />
+      <point x="225.5" y="106.0" />
+      <point x="-28.0" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.WindowsDialog" target="creational.factoryMethod.Button">
+      <point x="61.66666666666666" y="-27.0" />
+      <point x="514.5833333333334" y="227.0" />
+      <point x="526.5" y="227.0" />
+      <point x="526.5" y="96.0" />
+      <point x="309.5" y="96.0" />
+      <point x="56.0" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.Dialog" target="creational.factoryMethod.Button">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.HtmlDialog" target="creational.factoryMethod.HtmlButton">
+      <point x="-61.66666666666657" y="-27.0" />
+      <point x="79.41666666666669" y="227.0" />
+      <point x="70.0" y="227.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="creational.factoryMethod.Demo" target="creational.factoryMethod.HtmlDialog">
+      <point x="-75.0" y="-60.5" />
+      <point x="178.75" y="331.0" />
+      <point x="141.08333333333326" y="331.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9656544791021139" x="214.96247100830084" y="151.5789184570313" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
