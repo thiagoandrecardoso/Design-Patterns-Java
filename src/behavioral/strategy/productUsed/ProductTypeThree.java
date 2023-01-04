@@ -1,10 +1,10 @@
-package behavioral.strategy.userd;
+package behavioral.strategy.productUsed;
 
 public class ProductTypeThree implements ProductType{
     Product product = null;
     @Override
     public float calcFinalValue() {
-        float finalValue = (float) 0.0;
+        float finalValue;
 
         if (product.getAmount() <= 10) {
             finalValue = product.getPrice() * product.getAmount();

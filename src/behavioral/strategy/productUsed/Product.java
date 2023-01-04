@@ -1,4 +1,4 @@
-package behavioral.strategy.userd;
+package behavioral.strategy.productUsed;
 
 public class Product extends ProductAbs{
     private float price;

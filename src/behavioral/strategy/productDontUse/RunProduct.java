@@ -1,4 +1,4 @@
-package behavioral.strategy.notUsed;
+package behavioral.strategy.productDontUse;
 
 public class RunProduct {
 

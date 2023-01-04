@@ -1,4 +1,4 @@
-package behavioral.strategy.userd;
+package behavioral.strategy.productUsed;
 
 public abstract class ProductAbs {
     public ProductType productType;
