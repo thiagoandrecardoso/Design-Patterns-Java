@@ -4,14 +4,14 @@ public class Demo {
     private static Dialog dialog;
 
     public static void main(String[] args) {
-        configureDialog("win");
+        configureDialog("html");
         runBusinessLogic();
     }
 
     public static void configureDialog(String dialogId){
-        if (dialogId.equals("html")){
+        if ("html".equals(dialogId)){
             dialog = new HtmlDialog();
-        } else if (dialogId.equals("win")){
+        } else if ("win".equals(dialogId)){
             dialog = new WindowsDialog();
         }
     }

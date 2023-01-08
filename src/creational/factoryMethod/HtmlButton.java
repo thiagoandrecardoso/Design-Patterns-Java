@@ -6,7 +6,7 @@ package creational.factoryMethod;
 public class HtmlButton implements Button{
     @Override
     public void render() {
-        System.out.println("Test button");
+        System.out.println("Render html");
         onCLick();
     }
 
