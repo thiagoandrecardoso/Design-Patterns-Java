@@ -6,7 +6,7 @@ package creational.factoryMethod;
 public class WindowsButton implements Button{
     @Override
     public void render() {
-        System.out.println("Test button");
+        System.out.println("Render Wind Button");
         onCLick();
     }
 
