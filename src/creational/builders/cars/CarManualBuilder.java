@@ -1,16 +1,18 @@
-package creational.builders;
-/**
- * Concrete builders implement steps defined in the common interface.
- */
-public class CarBuilder implements Builder{
+package creational.builders.cars;
 
+import creational.builders.*;
+import creational.builders.components.Engine;
+import creational.builders.components.GPSNavigator;
+import creational.builders.components.Transmission;
+import creational.builders.components.TripComputer;
+
+public class CarManualBuilder implements Builder {
     private CarType type;
     private int seats;
     private Engine engine;
     private Transmission transmission;
     private TripComputer tripComputer;
     private GPSNavigator gpsNavigator;
-
     @Override
     public void setCarType(CarType type) {
         this.type = type;
@@ -41,7 +43,7 @@ public class CarBuilder implements Builder{
         this.gpsNavigator = gpsNavigator;
     }
 
-    public Car getResult(){
-        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+    public Manual getResult(){
+        return new Manual(type, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }

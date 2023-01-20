@@ -1,4 +1,9 @@
-package creational.builders;
+package creational.builders.cars;
+
+import creational.builders.components.Engine;
+import creational.builders.components.GPSNavigator;
+import creational.builders.components.Transmission;
+import creational.builders.components.TripComputer;
 
 public class Car {
     private final CarType carType;
