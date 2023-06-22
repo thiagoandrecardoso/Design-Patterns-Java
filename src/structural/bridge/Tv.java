@@ -1,9 +1,10 @@
 package structural.bridge;
 
-public class Tv implements IDevice{
+public class Tv implements IDevice {
     private boolean on = false;
     private int volume = 30;
     private int channel = 1;
+
     @Override
     public boolean isEnabled() {
         return on;

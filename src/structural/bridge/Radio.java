@@ -1,9 +1,10 @@
 package structural.bridge;
 
-public class Radio implements IDevice{
+public class Radio implements IDevice {
     private boolean on = false;
     private int volume = 30;
     private int channel = 1;
+
     @Override
     public boolean isEnabled() {
         return on;
@@ -27,7 +28,7 @@ public class Radio implements IDevice{
     @Override
     public void setVolume(int percent) {
         if (volume > 100) this.volume = 100;
-        else if(volume < 0) this.volume = 0;
+        else if (volume < 0) this.volume = 0;
         else this.volume = percent;
     }
 
