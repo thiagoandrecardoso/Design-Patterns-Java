@@ -1,7 +1,6 @@
-package behavioral.strategy.ducks.models;
+package behavioral.strategy.war.models;
 
 import behavioral.strategy.war.abst.Warrior;
-import behavioral.strategy.war.models.BowAndArrowBehavior;
 
 public class Knight extends Warrior {
 

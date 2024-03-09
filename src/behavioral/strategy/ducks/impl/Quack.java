@@ -1,4 +1,4 @@
-package behavioral.strategy.ducks.models;
+package behavioral.strategy.ducks.impl;
 
 import behavioral.strategy.ducks.interfaces.QuackBehavior;
 

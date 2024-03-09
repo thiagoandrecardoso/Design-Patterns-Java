@@ -1,7 +1,7 @@
 package behavioral.strategy.ducks.run;
 
 import behavioral.strategy.ducks.abst.Duck;
-import behavioral.strategy.ducks.models.FlyRocketPowered;
+import behavioral.strategy.ducks.impl.FlyRocketPowered;
 import behavioral.strategy.ducks.models.MallardDuck;
 import behavioral.strategy.ducks.models.ModelDuck;
 
